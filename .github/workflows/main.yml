@@ -1,0 +1,29 @@
+- name: Push and tag file to another repository
+  # You may pin to the exact commit or the version.
+  # uses: Bonus83/copy_commit_push_tag@4c4e7df34c9291837611b9ae987b5766c4eeff6f
+  uses: Bonus83/copy_commit_push_tag@v1.2
+  with:
+    # Source file from the origin directory
+    source_file: 
+    # Destination repository
+    destination_repo: 
+    # Directory to push the file to
+    destination_folder: # optional
+    # Email for the git commit
+    user_email: 
+    # GitHub username for the commit
+    user_name: 
+    # branch to push file to, defaults to main
+    destination_branch: # optional
+    # Destination branch to create for this commit
+    destination_branch_create: # optional
+    # A custom message for the commit
+    commit_message: # optional
+    # A custom tag for the commit
+    commit_tag: # optional
+    # Rename the destination file
+    rename: # optional
+    # Copy files/directories using rsync instead of cp. Experimental feature, please know your use case
+    use_rsync: # optional
+    # Git server host, default github.com
+    git_server: # optional, default is github.com
