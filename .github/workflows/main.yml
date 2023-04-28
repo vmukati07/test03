@@ -1,4 +1,4 @@
-- name: Push and tag file to another repository
+ name: Push and tag file to another repository
   # You may pin to the exact commit or the version.
   # uses: Bonus83/copy_commit_push_tag@4c4e7df34c9291837611b9ae987b5766c4eeff6f
   uses: Bonus83/copy_commit_push_tag@v1.2
